@@ -107,7 +107,6 @@ header {
 
 // FOOTER
 .site-footer {
-  // background-color: lightgray;
   padding: 10px 0;
   margin-top: 20px;
   border-top: thick double #2B7E21;
@@ -141,5 +140,43 @@ header {
           }
         }
       }
-  } }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 14px;
+
+    p {
+      margin: 0;
+
+      .tel {
+        font-weight: bold;
+        color: #2B7E21;
+      }
+    }
+  }
+}
+
+// ANNONCE COPY
+.copyCoopernet {
+  padding: 5px 0;
+  background-color: #b20000;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,1) 35px, rgba(255,255,255,1) 70px);
+  
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5px 0;
+    margin: 0;
+    font-weight: bold;
+    border-top: 1px solid #b20000;
+    border-bottom: 1px solid #b20000;
+    background-color: #fff;
+    color: #b20000;
+  }
 }

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700&display=swap');
+
+body {
+  font-family: 'Overpass', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// HEADER
+header {
+  display: flex;
+  flex-direction: column;
+
+  // Navbar top
+  #navbar-top {
+    border-top: 2px solid #2B7E21;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    li {
+      margin: 0 5px 0 5px;
+      padding: 10px;
+
+      a {
+        padding: 0;
+        color: #212529;
+      }
+
+      &:hover {
+        background-color: #2B7E21;
+        border-radius: 0 0 2px 2px;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // Header branding
+  .header-branding {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+
+    .navbar-brand {
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 26px;
+    }
+  }
+
+  // Primary menu
+  #navbar-main {
+    border-top: 2px solid #2B7E21;
+    border-bottom: 2px solid #2B7E21;
+    margin-bottom: 10px;
+
+    #block-mainnavigation{
+      display: flex;
+      justify-content: center;
+
+      .sf-accordion-toggle {
+        display: flex;
+        justify-content: center;
+      }
+
+      // First level
+      .sf-depth-1{
+        font-size: 20px;
+      }
+
+      .sf-has-clone-parent .sf-depth-1, .sf-depth-2 {
+        font-size: 16px;
+      }
+
+      ul {
+        margin: 0;
+
+        li {
+          background: transparent;
+
+          a {
+            color: #2B7E21;
+            background-color: #fff;
+            border-radius: 2px;
+
+            &:hover {
+              color: #fff;
+              background-color: #2B7E21;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// FOOTER
+.site-footer {
+  // background-color: lightgray;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-top: thick double #2B7E21;
+
+  // First footer
+  .site-footer__top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      flex-direction: row;
+
+      li {
+        margin: 5px;
+
+        a {
+          font-size: 14px;
+          font-weight: bold;
+          padding: 2px 5px;
+          color: #212529;
+        }
+
+        &:hover {
+          background-color: #2B7E21;
+          border-radius: 2px;
+
+          a {
+
+            color: #fff;
+          }
+        }
+      }
+  } }
+}

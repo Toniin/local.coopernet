@@ -1,0 +1,54 @@
+ul.sf-menu.sf-style-white a,
+ul.sf-menu.sf-style-white a:visited,
+ul.sf-menu.sf-style-white span.nolink {
+  border: 0 none;
+  color: #2B7E21;
+  padding: 0.75em 1em;
+}
+ul.sf-menu.sf-style-white span.sf-description {
+  color: #aaa;
+  display: block;
+  font-size: smaller;
+  line-height: 1.5;
+  margin: 0.25em 0 0 0;
+  padding: 0;
+}
+ul.sf-menu.sf-style-white li,
+ul.sf-menu.sf-style-white.sf-navbar {
+  background: #fafafa;
+}
+ul.sf-menu.sf-style-white li li,
+ul.sf-menu.sf-style-white.sf-navbar > li > ul {
+  background: #f7f7f7;
+}
+ul.sf-menu.sf-style-white li li li {
+  background: #f4f4f4;
+}
+ul.sf-menu.sf-style-white li:hover,
+ul.sf-menu.sf-style-white li.sfHover,
+ul.sf-menu.sf-style-white a.is-active,
+ul.sf-menu.sf-style-white a:focus,
+ul.sf-menu.sf-style-white a:hover,
+ul.sf-menu.sf-style-white span.nolink:hover {
+  background: #f0f0f0;
+  outline: 0;
+}
+.sf-menu.sf-style-white.sf-navbar li ul {
+  background: #f7f7f7;
+}
+.sf-menu.sf-style-white.sf-navbar li ul li ul {
+  background: #fff;
+}
+div.sf-accordion-toggle.sf-style-white a {
+  background: #fff;
+  border: none;
+  color: #2B7E21;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em 3em 1em 1em;
+  position: relative;
+}
+div.sf-accordion-toggle.sf-style-white a.sf-expanded,
+ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded {
+  background: #fff;
+}

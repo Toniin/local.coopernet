@@ -132,32 +132,28 @@
     {% endblock %}
   {% endif %}
 {# Content #}
-  <div id="main-wrapper" class="layout-main-wrapper clearfix">
+  <div id="main-wrapper" class="layout-main-wrapper container clearfix">
     {% block content %}
-      <div id="main" class="{{ container }}">
+      {% if page.breadcrumb %}
         {{ page.breadcrumb }}
-        <div>
-            <main>
-              <section class="section">
-                {{ page.content }}
-              </section>
-            </main>
-          {% if page.sidebar_first %}
-            <div{{ sidebar_first_attributes }}>
-              <aside class="section" role="complementary">
-                {{ page.sidebar_first }}
-              </aside>
-            </div>
-          {% endif %}
-          {% if page.sidebar_second %}
-            <div{{ sidebar_second_attributes }}>
-              <aside class="section" role="complementary">
-                {{ page.sidebar_second }}
-              </aside>
-            </div>
-          {% endif %}
+      {% endif %}
+      <main class="page-content row">
+          {{ page.content }}
+      </main>
+      {% if page.sidebar_first %}
+        <div{{ sidebar_first_attributes }}>
+          <aside class="section" role="complementary">
+            {{ page.sidebar_first }}
+          </aside>
         </div>
-      </div>
+      {% endif %}
+      {% if page.sidebar_second %}
+        <div{{ sidebar_second_attributes }}>
+          <aside class="section" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        </div>
+      {% endif %}
     {% endblock %}
   </div>
   {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}

@@ -108,11 +108,62 @@ header {
 }
 
 // CONTENT
+.page-content {
+  margin-top: 20px;
 
-#block-views-block-news-formations-block-1,
-#block-views-block-news-categories-block-1,
-#block-views-block-news-amo-et-realisations-block-1 {
-  background-color: red;
+  #block-views-block-news-formations-block-1,
+  #block-views-block-news-categories-block-1,
+  #block-views-block-news-amo-et-realisations-block-1 {
+
+    h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        width: 100%;
+        padding: 0 5px;
+        margin: 10px 0;
+        background-color: rgba(230, 230, 230, 0.4);
+        border-left: 2px solid #2B7E21;
+        border-radius: 3px;
+
+        h2 {
+          font-size: 16px;
+        }
+
+        p{
+          font-size: 14px;
+          height: 130px;
+        }
+
+        article {
+          padding: 0;
+          margin: 0;
+          border: none;
+        }
+      }
+    }
+  }
+
+  &:before {
+    content: 'Les news de coopernet !';
+    position: relative;
+    display: block;
+  }
+
+  &:after {
+    content: '<a href="/news">VOIR</a>';
+    position: relative;
+    display: block;
+  }
 }
 
 // FOOTER

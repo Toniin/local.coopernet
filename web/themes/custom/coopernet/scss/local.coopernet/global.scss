@@ -108,8 +108,16 @@ header {
 }
 
 // CONTENT
+.homepage-news {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
 .page-content {
-  margin-top: 20px;
+  margin: 25px 0;
 
   #block-views-block-news-formations-block-1,
   #block-views-block-news-categories-block-1,
@@ -131,12 +139,17 @@ header {
         width: 100%;
         padding: 0 5px;
         margin: 10px 0;
-        background-color: rgba(230, 230, 230, 0.4);
+        background-color: rgba(240, 240, 240, 0.7);
         border-left: 2px solid #2B7E21;
         border-radius: 3px;
+        box-shadow: 7px 7px 5px -3px rgba(50, 50, 50, 0.6);
+        -webkit-box-shadow: 7px 7px 5px -3px rgba(50, 50, 50, 0.6);
+        -moz-box-shadow: 7px 7px 5px -3px rgba(50, 50, 50, 0.6);
+        box-shadow: 7px 7px 5px -3px rgba(50, 50, 50, 0.6);
 
         h2 {
           font-size: 16px;
+          justify-content: flex-start;
         }
 
         p{
@@ -152,18 +165,11 @@ header {
       }
     }
   }
+}
 
-  &:before {
-    content: 'Les news de coopernet !';
-    position: relative;
-    display: block;
-  }
-
-  &:after {
-    content: '<a href="/news">VOIR</a>';
-    position: relative;
-    display: block;
-  }
+.btn-home-news {
+  display: flex;
+  justify-content: center;
 }
 
 // FOOTER

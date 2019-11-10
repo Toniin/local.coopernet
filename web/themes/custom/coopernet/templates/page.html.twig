@@ -135,11 +135,21 @@
   <div id="main-wrapper" class="layout-main-wrapper container clearfix">
     {% block content %}
       {% if page.breadcrumb %}
-        {{ page.breadcrumb }}
+        {{ page.breadcrumb }} is_front
+      {% endif %}
+      {% if is_front %}
+        <h2 class="homepage-news">Les news de coopernet !</h2>
       {% endif %}
       <main class="page-content row">
           {{ page.content }}
       </main>
+      {% if is_front %}
+        <div class="btn-home-news">
+          <a class="btn btn-success" href="/news" role="button">
+            <i class="fas fa-arrow-right"></i></i> Voir toutes les actualités
+          </a>
+        </div>
+      {% endif %}
       {% if page.sidebar_first %}
         <div{{ sidebar_first_attributes }}>
           <aside class="section" role="complementary">

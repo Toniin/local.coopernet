@@ -172,6 +172,18 @@ header {
   justify-content: center;
 }
 
+// ERROR 404
+.error404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
 // FOOTER
 .site-footer {
   padding: 10px 0;

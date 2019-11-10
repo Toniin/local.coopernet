@@ -136,10 +136,9 @@
     {% block content %}
       <div id="main" class="{{ container }}">
         {{ page.breadcrumb }}
-        <div class="row row-offcanvas row-offcanvas-left clearfix">
-            <main{{ content_attributes }}>
+        <div>
+            <main>
               <section class="section">
-                <a id="main-content" tabindex="-1"></a>
                 {{ page.content }}
               </section>
             </main>
@@ -200,7 +199,7 @@
   </footer>
   <div class="copyCoopernet">
     <p>
-      <i class="fas fa-exclamation-triangle"></i> CECI EST UNE COPIE NON-OFFICIEL DU SITE: coopernet.fr.
+      <i class="fas fa-exclamation-triangle"></i> CECI EST UNE COPIE NON-OFFICIEL DU SITE: <a href="http://coopernet.fr/" target="_blank"> coopernet.fr</a>
     </p>
   </div>
 </div>

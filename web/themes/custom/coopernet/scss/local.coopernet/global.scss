@@ -77,8 +77,10 @@ header {
       // First level
       .sf-depth-1{
         font-size: 20px;
+        margin: 0 5px;
       }
 
+      // Seconde level (dropdown menu)
       .sf-has-clone-parent .sf-depth-1, .sf-depth-2 {
         font-size: 16px;
       }
@@ -103,6 +105,14 @@ header {
       }
     }
   }
+}
+
+// CONTENT
+
+#block-views-block-news-formations-block-1,
+#block-views-block-news-categories-block-1,
+#block-views-block-news-amo-et-realisations-block-1 {
+  background-color: red;
 }
 
 // FOOTER
@@ -166,6 +176,7 @@ header {
   padding: 5px 0;
   background-color: #b20000;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,1) 35px, rgba(255,255,255,1) 70px);
+  color: #b20000;
   
   p {
     display: flex;
@@ -177,6 +188,10 @@ header {
     border-top: 1px solid #b20000;
     border-bottom: 1px solid #b20000;
     background-color: #fff;
-    color: #b20000;
+
+    a {
+      color: #b20000;
+      margin: 0 5px;
+    }
   }
 }

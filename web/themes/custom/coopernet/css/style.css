@@ -7574,7 +7574,8 @@ header {
         display: flex;
         justify-content: center; }
       header #navbar-main #block-mainnavigation .sf-depth-1 {
-        font-size: 20px; }
+        font-size: 20px;
+        margin: 0 5px; }
       header #navbar-main #block-mainnavigation .sf-has-clone-parent .sf-depth-1, header #navbar-main #block-mainnavigation .sf-depth-2 {
         font-size: 16px; }
       header #navbar-main #block-mainnavigation ul {
@@ -7588,6 +7589,11 @@ header {
             header #navbar-main #block-mainnavigation ul li a:hover {
               color: #fff;
               background-color: #2B7E21; }
+
+#block-views-block-news-formations-block-1,
+#block-views-block-news-categories-block-1,
+#block-views-block-news-amo-et-realisations-block-1 {
+  background-color: red; }
 
 .site-footer {
   padding: 10px 0;
@@ -7626,7 +7632,8 @@ header {
 .copyCoopernet {
   padding: 5px 0;
   background-color: #b20000;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, white 35px, white 70px); }
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, white 35px, white 70px);
+  color: #b20000; }
   .copyCoopernet p {
     display: flex;
     justify-content: center;
@@ -7636,7 +7643,9 @@ header {
     font-weight: bold;
     border-top: 1px solid #b20000;
     border-bottom: 1px solid #b20000;
-    background-color: #fff;
-    color: #b20000; }
+    background-color: #fff; }
+    .copyCoopernet p a {
+      color: #b20000;
+      margin: 0 5px; }
 
 /*# sourceMappingURL=style.css.map */

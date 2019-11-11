@@ -15,14 +15,14 @@ ul.sf-menu.sf-style-white span.sf-description {
 }
 ul.sf-menu.sf-style-white li,
 ul.sf-menu.sf-style-white.sf-navbar {
-  background: #fafafa;
+  background: rgba(255, 255, 255, 0.7);
 }
 ul.sf-menu.sf-style-white li li,
 ul.sf-menu.sf-style-white.sf-navbar > li > ul {
-  background: #f7f7f7;
+  background: rgba(255, 255, 255, 0.7);
 }
 ul.sf-menu.sf-style-white li li li {
-  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.7);
 }
 ul.sf-menu.sf-style-white li:hover,
 ul.sf-menu.sf-style-white li.sfHover,
@@ -30,17 +30,17 @@ ul.sf-menu.sf-style-white a.is-active,
 ul.sf-menu.sf-style-white a:focus,
 ul.sf-menu.sf-style-white a:hover,
 ul.sf-menu.sf-style-white span.nolink:hover {
-  background: #f0f0f0;
+  background: rgba(255, 255, 255, 0.7);
   outline: 0;
 }
 .sf-menu.sf-style-white.sf-navbar li ul {
-  background: #f7f7f7;
+  background: rgba(255, 255, 255, 0.7);
 }
 .sf-menu.sf-style-white.sf-navbar li ul li ul {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
 }
 div.sf-accordion-toggle.sf-style-white a {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   border: none;
   color: #2B7E21;
   display: inline-block;
@@ -50,5 +50,5 @@ div.sf-accordion-toggle.sf-style-white a {
 }
 div.sf-accordion-toggle.sf-style-white a.sf-expanded,
 ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
 }

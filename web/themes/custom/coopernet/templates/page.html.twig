@@ -138,7 +138,9 @@
         {{ page.breadcrumb }} is_front
       {% endif %}
       {% if is_front %}
-        <h2 class="homepage-news">Les news de coopernet !</h2>
+        <div class="homepage-news">
+          <h2>Les news de coopernet !</h2>
+        </div>
       {% endif %}
       <main class="page-content row">
           {{ page.content }}
@@ -168,7 +170,7 @@
   </div>
   {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
     <div class="featured-bottom">
-      <aside class="{{ container }} clearfix" role="complementary">
+      <aside class="clearfix" role="complementary">
         {{ page.featured_bottom_first }}
         {{ page.featured_bottom_second }}
         {{ page.featured_bottom_third }}

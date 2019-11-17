@@ -1,0 +1,30 @@
+uuid: a76c4c74-726a-4246-8d6b-01f171af0128
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news.body
+    - field.field.node.news.field_news_image
+    - field.field.node.news.field_news_section
+    - node.type.news
+  module:
+    - text
+    - user
+id: node.news.teaser
+targetEntityType: node
+bundle: news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 0
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_news_image: true
+  field_news_section: true
+  links: true

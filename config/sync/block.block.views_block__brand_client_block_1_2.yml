@@ -1,0 +1,30 @@
+uuid: 7e03ba56-8362-44ef-a40b-8a850a554536
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.brand_client
+  module:
+    - system
+    - views
+  theme:
+    - coopernet
+id: views_block__brand_client_block_1_2
+theme: coopernet
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: 'views_block:brand_client-block_1'
+settings:
+  id: 'views_block:brand_client-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

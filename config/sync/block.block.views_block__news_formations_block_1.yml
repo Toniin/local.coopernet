@@ -1,0 +1,30 @@
+uuid: 024f6f8d-f879-4e7d-9fb5-378df88b12da
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_formations
+  module:
+    - system
+    - views
+  theme:
+    - coopernet
+id: views_block__news_formations_block_1
+theme: coopernet
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:news_formations-block_1'
+settings:
+  id: 'views_block:news_formations-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

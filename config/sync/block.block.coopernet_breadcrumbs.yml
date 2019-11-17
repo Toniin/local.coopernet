@@ -1,0 +1,22 @@
+uuid: 4b5410a2-1fa3-4e22-addc-9756b41298f0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - coopernet
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: coopernet_breadcrumbs
+theme: coopernet
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

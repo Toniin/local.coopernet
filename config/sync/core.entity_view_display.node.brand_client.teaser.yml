@@ -1,0 +1,20 @@
+uuid: 408faf09-fe38-42f8-848d-0e1254b9396d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.brand_client
+  module:
+    - user
+id: node.brand_client.teaser
+targetEntityType: node
+bundle: brand_client
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

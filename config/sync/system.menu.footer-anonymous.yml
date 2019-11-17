@@ -1,0 +1,8 @@
+uuid: a65df1ac-64cd-4ffb-b825-95a3b97379f6
+langcode: en
+status: true
+dependencies: {  }
+id: footer-anonymous
+label: 'Footer anonymous'
+description: 'Menu footer if not connected'
+locked: false

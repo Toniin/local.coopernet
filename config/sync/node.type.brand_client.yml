@@ -1,0 +1,17 @@
+uuid: ed5a4484-fd89-4726-a583-48a9d3039a53
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Brand client'
+type: brand_client
+description: 'Logo of the brand client'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

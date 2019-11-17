@@ -1,0 +1,30 @@
+uuid: c102f7e2-f58a-4eba-9e9a-b45f115c5a47
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_amo_et_realisations
+  module:
+    - system
+    - views
+  theme:
+    - coopernet
+id: views_block__news_amo_et_realisations_block_1
+theme: coopernet
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:news_amo_et_realisations-block_1'
+settings:
+  id: 'views_block:news_amo_et_realisations-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

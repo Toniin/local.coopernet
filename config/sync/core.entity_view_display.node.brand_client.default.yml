@@ -1,0 +1,30 @@
+uuid: 6554907f-27d1-424b-a485-50827933d64f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.brand_client.field_brand_image
+    - node.type.brand_client
+  module:
+    - image
+    - user
+id: node.brand_client.default
+targetEntityType: node
+bundle: brand_client
+mode: default
+content:
+  field_brand_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 4b907f3b-f87d-4a8d-9ff5-4c57ce520679
+name: local.Coopernet
+mail: admin@example.com
+slogan: 'Réussir son site web et ses applications de la conception à la réalisation'
+page:
+  403: ''
+  404: /node/44
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
